@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style> 
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 90%;
+    height: 150px;    
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+</style>
+</head>
+
+<title>Pluusz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<body bgcolor="#bcc6d6">
+
+<div class="w3-container">
+</div>
+
+<div class="w3-bar w3-red">
+  <a href="#" class="w3-bar-item w3-button">Pluusz</a>
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Bejelentkezés</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<div class="w3-panel">
+</div>
+
+
+
+
+
+<div class="w3-content w3-section" style="max-width:394px">
+  <img class="mySlides" src="1.jpg" style="width:100%">
+  <img class="mySlides" src="2.png" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<div class="w3-container w3-content">
+ <p class="w3-opacity"><b>Today</b></p> 
+ <div id="rcorners1">
+    <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+   <p class="w3-text-blue"><b>Egy kártya</b></p>
+   <p>Pfuuu</p>
+   <p class="w3-text-blue">Show in folder</p>
+ </div>
+
+</body>
+</html>
