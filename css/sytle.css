@@ -1,0 +1,24 @@
+  p{
+        font-family:'Roboto', sans-serif ;
+    }
+    a{
+        font-family:'Roboto', sans-serif ;
+    }
+    img {
+        border-radius: 10px;
+    }
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 90%;
+    height: 150px;    
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
