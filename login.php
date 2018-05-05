@@ -16,6 +16,7 @@
 <div class="w3-bar w3-red">
     <a href="main.html" class="w3-bar-item w3-button" >Pluusz</a>
     <a href="login.php" class="w3-bar-item w3-button">Bejelentkezés</a>
+    <a href="register.php" class="w3-bar-item w3-button">Regisztráció</a>
 </div>
 
 
@@ -24,19 +25,20 @@
     <!-- <p class="w3-opacity"><b>Today</b></p> -->
 
 
-    <div class="row">
-        <h3><center> Lépj be a fiókodba</h3></center>
-        <form action="./php/loginphp.php" method="post" enctype="multipart/form-data">
+
+        <h2><center> Lépj be a fiókodba</h2></center>
+        <form action="loginphp.php" method="post" enctype="multipart/form-data">
             <div class="midcard">
 
                 <center><input type="text" name="felhnev" maxlength="16" placeholder="Felhasználónév" autofocus tabindex="1"></center>
                 <center><input type="password" name="jelszo" placeholder="Jelszo" tabindex="2"></center>
+                <center> <input type="submit" name="button" value="Belépés" tabindex="3"></center>
                 <br></br>
-                <center> <input type="submit" name="button" value="Belépés" tabindex="4"></center>
+                <center><h1><a href="register.php">Regisztráció</a><br></center></h1>
             </div>
         </form>
-        <center><h1><a href="./register.php">Regisztráció</a><br></center></h1>
-    </div>
+
+
 
 
 
